@@ -1,6 +1,17 @@
 .App {
   text-align: center;
 }
+.section{
+  padding: 20px;
+}
+input{
+  margin: 10px 0px 10px 0px; 
+  padding: 5px;
+  min-width: 70%;
+}
+.btn-primary{
+  margin-right: 5px;
+}
 
 .App-logo {
   height: 40vmin;
