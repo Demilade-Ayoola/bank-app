@@ -12,3 +12,14 @@ export const withdraw = amount =>{
         payload: amount,
     }
 } 
+export const loan = amount =>{
+    return{
+        type: 'LOAN',
+        payload: amount,
+    }
+}
+export const collectInterest = () =>{
+    return{
+        type:'COLLECT_INTEREST',
+    }
+}
